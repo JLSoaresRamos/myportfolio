@@ -3,6 +3,9 @@ export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
+			fontFamily: {
+				Inter: ["Inter", "sans-serif"],
+			},
 			backgroundImage: {
 				background:
 					"linear-gradient(to bottom left, #22162B 25%, #833BE7 100%)",
