@@ -8,7 +8,7 @@ export default {
 			},
 			backgroundImage: {
 				background:
-					"linear-gradient(to bottom left, #22162B 25%, #833BE7 100%)",
+					"linear-gradient(to bottom left, #22162B 60%, #833BE7 100%)",
 				"button-background":
 					"linear-gradient(to bottom left, #833BE7, #5CC8FF )",
 			},

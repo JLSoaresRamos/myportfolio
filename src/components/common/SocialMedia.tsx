@@ -4,7 +4,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 export default function SocialMedia() {
 	return (
-		<div className="flex gap-1 text-5xl justify-between w-full">
+		<div className="flex gap-1 text-5xl">
 			<a href="#">
 				<FaLinkedin className="hover:text-primary-red" />
 			</a>
