@@ -4,12 +4,17 @@ import CVButton from "../common/CVButton";
 
 export default function Hero() {
 	return (
-		<section className="flex flex-col gap-4 justify-center md:items-start items-center">
-			<div className="flex flex-col md:flex-row gap-4 justify-center items-center">
+		<section className="flex flex-col justify-center md:items-start items-center">
+			<div className="flex flex-col md:gap-8 md:flex-row justify-center items-center">
 				<Profile />
-				<div className="flex flex-col align-baseline">
+				<div className="flex flex-col gap-8 md:gap-4 align-baseline">
 					<div>
-						<h1 className="font-bold text-center text-xl md:text-left md:text-4xl">
+						<h1 className="font-bold text-center relative text-xl md:text-left md:text-4xl">
+							<img
+								src="/images/waving-hand.svg"
+								className="hidden md:block w-8 h-8 absolute top-0 animate-wave"
+								alt=""
+							/>
 							<br />
 							Olá,
 							<br />
@@ -20,9 +25,11 @@ export default function Hero() {
 							</span>
 						</h1>
 					</div>
-					<div className="gap-4 flex flex-col md:items-start items-center">
-						<SocialMedia />
-						<CVButton />
+					<div className="flex flex-col md:items-start items-center">
+						<div className="flex flex-col items-center gap-8 md:gap-4 ">
+							<SocialMedia />
+							<CVButton />
+						</div>
 					</div>
 				</div>
 			</div>

@@ -2,7 +2,7 @@ import TextBlock from "./TextBlock";
 
 export default function MVV() {
 	return (
-		<section className="relative grid space-y-16 md:space-y-0 md:grid-cols-6 md:grid-rows-3 gap-10">
+		<section className="relative grid space-y-4 md:space-y-0 md:grid-cols-6 md:grid-rows-3 gap-10">
 			{/* Missão */}
 			<TextBlock title="Missão" className="md:col-start-1 md:col-end-3">
 				Minha missão é combinar código limpo com design intuitivo para criar
@@ -40,7 +40,7 @@ export default function MVV() {
 			<img
 				src="/images/planet.svg"
 				alt="Planeta"
-				className="hidden md:block absolute bottom-0 left-0 w-80"
+				className="hidden md:block absolute bottom-0 -left-7 w-80"
 			/>
 		</section>
 	);
