@@ -1,4 +1,4 @@
-type ProjectProps = {
+export type ProjectProps = {
 	url: string;
 	img: {
 		url: string;
@@ -8,7 +8,7 @@ type ProjectProps = {
 
 export default function Project({ img, url }: ProjectProps) {
 	return (
-		<a href={url}>
+		<a href={url} target="_blank">
 			<img
 				src={img.url}
 				alt={img.alt}

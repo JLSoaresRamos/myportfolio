@@ -1,6 +1,5 @@
 import Profile from "./Profile";
-import SocialMedia from "../common/SocialMedia";
-import CVButton from "../common/CVButton";
+import GroupButtons from "../common/GroupButtons";
 
 export default function Hero() {
 	return (
@@ -25,12 +24,7 @@ export default function Hero() {
 							</span>
 						</h1>
 					</div>
-					<div className="flex flex-col md:items-start items-center">
-						<div className="flex flex-col items-center gap-8 md:gap-4 ">
-							<SocialMedia />
-							<CVButton />
-						</div>
-					</div>
+					<GroupButtons />
 				</div>
 			</div>
 		</section>
