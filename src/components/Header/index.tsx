@@ -15,7 +15,7 @@ export default function Header() {
 
 	useEffect(() => {
 		function handleResize() {
-			if (window.innerWidth > 768) {
+			if (window.innerWidth >= 768) {
 				setIsOpen(false);
 			}
 		}
