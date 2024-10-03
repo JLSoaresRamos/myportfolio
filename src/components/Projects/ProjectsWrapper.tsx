@@ -4,36 +4,41 @@ import ShowMoreButton from "./ShowMoreButton";
 
 const projectsData: ProjectProps[] = [
 	{
+		title: "Easybank",
 		img: {
-			url: "/images/easybank-screenshot.png",
+			url: "/images/easybank-screenshot-tiny.png",
 			alt: "Easybank website solution screenshot",
 		},
 		url: "https://stirring-starlight-ece270.netlify.app/",
 	},
 	{
+		title: "Sunnyside",
 		img: {
-			url: "/images/sunnyside-screenshot.png",
+			url: "/images/sunnyside-screenshot-tiny.png",
 			alt: "Sunnyside website solution screenshot",
 		},
 		url: "https://jlsoaresramos.github.io/sunnyside/",
 	},
 	{
+		title: "Todo",
 		img: {
-			url: "/images/todo-screenshot.png",
+			url: "/images/todo-screenshot-tiny.png",
 			alt: "Todo website solution screenshot",
 		},
 		url: "https://jlsoaresramos.github.io/todo/",
 	},
 	{
+		title: "Manage",
 		img: {
-			url: "/images/manage-screenshot.png",
+			url: "/images/manage-screenshot-tiny.png",
 			alt: "Manage website solution screenshot",
 		},
 		url: "https://jlsoaresramos.github.io/manage-landpage/",
 	},
 	{
+		title: "Cart",
 		img: {
-			url: "/images/product-list-screenshot.png",
+			url: "/images/product-list-screenshot-tiny.png",
 			alt: "Product list with cart website solution screenshot",
 		},
 		url: "https://peaceful-chebakia-a4cbc5.netlify.app/",
@@ -56,7 +61,12 @@ export default function ProjectsWrapper() {
 		<div className="flex flex-col items-center gap-4">
 			<div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10">
 				{projectsToShow.map((project, index) => (
-					<Project key={index} img={project.img} url={project.url} />
+					<Project
+						key={index}
+						title={project.title}
+						img={project.img}
+						url={project.url}
+					/>
 				))}
 			</div>
 			{projectsData.length > 6 && (

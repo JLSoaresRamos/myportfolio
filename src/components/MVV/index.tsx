@@ -31,15 +31,17 @@ export default function MVV() {
 
 			{/* Imagem do astronauta */}
 			<img
+				loading="lazy"
 				src="/images/astronaut.svg"
-				alt="Astronauta"
+				alt="Astronauta andando na lua e o planeta terra ao horizonte"
 				className="hidden md:block absolute top-0 right-0 md:right-10 w-80"
 			/>
 
 			{/* Imagem do planeta */}
 			<img
+				loading="lazy"
 				src="/images/planet.svg"
-				alt="Planeta"
+				alt="Planeta com um telescópio em cima"
 				className="hidden md:block absolute bottom-0 -left-7 w-80"
 			/>
 		</section>
