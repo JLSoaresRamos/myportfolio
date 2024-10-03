@@ -5,16 +5,16 @@ export default function Nav() {
 		<nav className="hidden md:block">
 			<ul className="flex space-x-8">
 				<li>
-					<Link text="Contatos" href="#" />
+					<Link text="Contatos" href="#contato" />
 				</li>
 				<li>
-					<Link text="Projetos" href="#" />
+					<Link text="Projetos" href="#projetos" />
 				</li>
 				<li>
-					<Link text="MVV" href="#" />
+					<Link text="MVV" href="#mvv" />
 				</li>
 				<li>
-					<Link text="Tecnologias" href="#" />
+					<Link text="Tecnologias" href="#tecnologias" />
 				</li>
 			</ul>
 		</nav>

@@ -3,7 +3,7 @@ import ProjectsWrapper from "./ProjectsWrapper";
 
 export default function Projects() {
 	return (
-		<section className="text-center md:text-left">
+		<section id="projetos" className="text-center md:text-left">
 			<Title>Últimos Projetos</Title>
 			<ProjectsWrapper />
 		</section>

@@ -10,16 +10,19 @@ export default function MobileFloatNav({ isOpen }: MobileNavProps) {
 			}`}
 		>
 			<div className="flex flex-col space-y-4 items-center">
-				<a href="#" className="text-white text-lg hover:text-gray-400">
-					Contatos
+				<a href="#contato" className="text-white text-lg hover:text-gray-400">
+					Contato
 				</a>
-				<a href="#" className="text-white text-lg hover:text-gray-400">
+				<a href="#projetos" className="text-white text-lg hover:text-gray-400">
 					Projetos
 				</a>
-				<a href="#" className="text-white text-lg hover:text-gray-400">
+				<a href="#mvv" className="text-white text-lg hover:text-gray-400">
 					MVV
 				</a>
-				<a href="#" className="text-white text-lg hover:text-gray-400">
+				<a
+					href="#tecnologias"
+					className="text-white text-lg hover:text-gray-400"
+				>
 					Tecnologias
 				</a>
 			</div>

@@ -8,11 +8,11 @@ export default function Hero() {
 				<Profile />
 				<div className="flex flex-col gap-8 md:gap-4 align-baseline">
 					<div>
-						<h1 className="font-bold text-center relative text-xl md:text-left md:text-4xl">
+						<h1 className="font-bold text-center relative text-2xl md:text-left md:text-5xl">
 							<img
 								src="/images/waving-hand.svg"
 								className="hidden md:block w-8 h-8 absolute top-0 animate-wave"
-								alt=""
+								alt="Mão abanando para direita e esqueda"
 							/>
 							<br />
 							Olá,
