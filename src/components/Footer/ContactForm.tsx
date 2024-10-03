@@ -1,3 +1,5 @@
+const EMAILJS_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import { successMessage, errorMessage } from "../common/toast";
@@ -37,7 +39,7 @@ export default function ContactForm() {
 				"contact_service",
 				"template_zijsoxh",
 				templateParams,
-				"4gh07yFnwU-jhXjck"
+				EMAILJS_KEY
 			);
 			console.log("Email enviado com sucesso!", response.status, response.text);
 			successMessage();
